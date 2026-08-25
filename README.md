@@ -55,3 +55,13 @@ A full performance video of the car will be added here as testing progresses.
 **Video:** 
 
 More testing videos and results can also be found in the `testing/` folder.
+
+
+## Open Challenge — 30 Points
+
+Our vehicle is designed to autonomously complete **3 laps**, adapt to the track layout, stay within the course, and stop correctly after finishing.
+
+##Obstacle Challenge — 62 Points
+
+Our vehicle must complete **3 laps** while detecting traffic pillars. It passes **red pillars on the right** and **green pillars on the left**, avoids moving them, and performs **parallel parking** after completing the laps.
+
