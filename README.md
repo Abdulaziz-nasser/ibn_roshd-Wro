@@ -42,7 +42,7 @@ The Jetson and controller communicate through **USB serial**.
 
 The car is being built and tested step by step so that each part works reliably before we combine everything into the full autonomous system.
 
-### Vehicle Photos
+## Vehicle Photos
 
 [finish the car]
 
