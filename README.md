@@ -16,7 +16,7 @@ We are developing an autonomous vehicle for the WRO Future Engineers competition
 
 ## Vehicle
 
-Our vehicle uses an **NVIDIA Jetson Orin Nano Super** as the main computer.
+Our vehicle uses an **NVIDIA Jetson Orin Nano** as the main computer.
 
 The Jetson is responsible for:
 
