@@ -1,4 +1,3 @@
-# ibn_roshd-Wro
 # WRO Future Engineers – Autonomous Vehicle
 
 ## Team Information
@@ -15,7 +14,7 @@
 
 We are developing an autonomous car for the WRO Future Engineers competition. Our goal is to build a reliable car that can understand the track, make driving decisions, and complete the challenge autonomously.
 
-## car
+## Vehicle
 
 Our car uses an **NVIDIA Jetson Orin Nano** as the main computer.
 
