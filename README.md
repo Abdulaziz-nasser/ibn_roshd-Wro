@@ -3,8 +3,11 @@
 ## Team Information
 
 **Team Name:** [Ibn_roshd]
+
 **Country:** [Saudi Arabia, Riyadh]
+
 **Competition:** WRO Future Engineers
+
 **Team Members:**
 
 * [Abdulaziz nasser almindil]
