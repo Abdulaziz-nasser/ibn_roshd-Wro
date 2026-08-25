@@ -11,12 +11,13 @@
 * [Abdulaziz nasser almindil]
 
 **Coach:** [**Engineer Mohammed Emam**]
+[put pics about the team]
 
-We are developing an autonomous vehicle for the WRO Future Engineers competition. Our goal is to build a reliable vehicle that can understand the track, make driving decisions, and complete the challenge autonomously.
+We are developing an autonomous car for the WRO Future Engineers competition. Our goal is to build a reliable car that can understand the track, make driving decisions, and complete the challenge autonomously.
 
-## Vehicle
+## car
 
-Our vehicle uses an **NVIDIA Jetson Orin Nano** as the main computer.
+Our car uses an **NVIDIA Jetson Orin Nano** as the main computer.
 
 The Jetson is responsible for:
 
@@ -26,7 +27,7 @@ The Jetson is responsible for:
 * Mission decisions
 * Logging and debugging
 
-A separate **Arduino-compatible controller** is used for real-time hardware control, including:
+A separate **ESP32-compatible controller** is used for real-time hardware control, including:
 
 * Drive motor
 * Steering
@@ -37,15 +38,17 @@ A separate **Arduino-compatible controller** is used for real-time hardware cont
 
 The Jetson and controller communicate through **USB serial**.
 
-The vehicle is being built and tested step by step so that each part works reliably before we combine everything into the full autonomous system.
+The car is being built and tested step by step so that each part works reliably before we combine everything into the full autonomous system.
 
 ### Vehicle Photos
 
-
+[finish the car]
 
 ## Performance Video
 
-A full performance video of the vehicle will be added here as testing progresses.
+[finish the car coding]
+
+A full performance video of the car will be added here as testing progresses.
 
 **Video:** 
 
