@@ -2,7 +2,7 @@
 
 During the development of the vehicle, we ran into a problem while setting up and testing the system. This page shows what happened, what we tried, and how we fixed it.
 
-## **Problem 1 — [faulty usb drive]**
+## **Problem 1 — [Faulty usb drive]**
 
 ### **Problem**
 
