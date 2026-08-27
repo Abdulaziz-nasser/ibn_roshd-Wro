@@ -2,27 +2,21 @@
 
 During the development of the vehicle, we ran into a problem while setting up and testing the system. This page shows what happened, what we tried, and how we fixed it.
 
-## **Problem 1 — [Problem Name]**
+## **Problem 1 — [faulty usb drive]**
 
 ### **Problem**
 
-Briefly explain what happened and which part of the system was not working.
-
-### **What we noticed**
-
-* What appeared on the screen
-* Any error message
-* What part was not working
+During installation, we found a problem with installing the software. .
 
 ### **What we tried**
 
-* First thing we tested
-* Second thing we tested
-* Any changes we made
+* We Tried commands.
+* we waited for 30 mins for the machine
+* recheck the usb
 
 ### **Solution**
 
-Explain what finally fixed the problem.
+We gotten a another usb drive to reinstall jetpack software.
 
 ### **Result**
 
