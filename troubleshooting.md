@@ -6,7 +6,7 @@ During the development of the vehicle, we ran into a problem while setting up an
 
 ### **Problem**
 
-During installation, we found a problem with installing the software. .
+During installation, we found a problem with installing the software. 
 
 ### **What we tried**
 
