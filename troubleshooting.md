@@ -23,8 +23,4 @@ We gotten a another usb drive to reinstall jetpack software.
 ### **Result**
 
 After making the change, we tested the system again and it worked correctly. 
-<img width="1280" height="960" alt="pic_solve1" src="https://github.com/user-attachments/assets/f72a838c-ae70-4830-945c-4e5ff570c717" />
-
-### **Screenshot**
-
-*Add a screenshot of the problem or the working system here.*
+<img width="640" height="480" alt="pic_solve1" src="https://github.com/user-attachments/assets/f72a838c-ae70-4830-945c-4e5ff570c717" />
