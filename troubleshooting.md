@@ -3,7 +3,7 @@
 During the development of the vehicle, we ran into a problem while setting up and testing the system. This page shows what happened, what we tried, and how we fixed it.
 
 ## **Problem 1 — [Faulty usb drive]** 
-<img width="1280" height="960" alt="pic_error1" src="https://github.com/user-attachments/assets/a6a34fac-dce3-4bc8-bbc6-130319bf3a2c" />
+<img width="640" height="480" alt="pic_error1" src="https://github.com/user-attachments/assets/a6a34fac-dce3-4bc8-bbc6-130319bf3a2c" />
 
 
 ### **Problem**
