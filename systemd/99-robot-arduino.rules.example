@@ -1,3 +1,0 @@
-# Replace idVendor/idProduct with values shown by: udevadm info -a -n /dev/ttyACM0
-# Then copy to /etc/udev/rules.d/99-robot-arduino.rules and reload udev.
-SUBSYSTEM=="tty", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0042", SYMLINK+="robot_arduino", GROUP="dialout", MODE="0660"
