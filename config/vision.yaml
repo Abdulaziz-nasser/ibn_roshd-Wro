@@ -1,0 +1,91 @@
+# Shared one-camera vision configuration.
+# The autotune tool and main mission both read this exact file and the same
+# robot/vision.py detector, eliminating pipeline differences.
+
+camera:
+  # csi = MIPI CSI camera using nvarguscamerasrc; usb = USB camera using V4L2.
+  type: csi
+  sensor_id: 0
+  device_index: 0
+  capture_width: 1280
+  capture_height: 720
+  output_width: 640
+  output_height: 480
+  fps: 30
+  flip_method: 0
+  reopen_s: 1.0
+
+  # Keep automatic exposure/white balance during early tests. After calibration,
+  # use the manual's locking procedure and then set these values if needed.
+  ae_lock: false
+  awb_lock: false
+  # exposure_time_range_ns: [10000000, 10000000]
+  # gain_range: [1.0, 1.0]
+  # isp_digital_gain_range: [1.0, 1.0]
+
+line:
+  # One centered camera: lower-centre region for BLUE/ORANGE floor lines.
+  roi: [0.20, 0.55, 0.80, 1.00]
+  blur_kernel: 3
+  min_pixels: 500
+  min_area: 700
+  min_solidity: 0.25
+  min_aspect: 1.25
+  minimum_confidence: 0.72
+  processing:
+    erode_iter: 0
+    dilate_iter: 2
+    close_kernel: 5
+    open_kernel: 0
+
+pillar:
+  # Large forward/lower region for RED/GREEN pillars.
+  roi: [0.02, 0.18, 0.98, 0.98]
+  blur_kernel: 5
+  min_pixels: 600
+  min_area: 1800
+  min_solidity: 0.35
+  min_aspect: 1.15
+  minimum_confidence: 0.72
+  processing:
+    erode_iter: 1
+    dilate_iter: 2
+    close_kernel: 7
+    open_kernel: 3
+
+temporal:
+  alpha_up: 0.55
+  alpha_down: 0.25
+
+# These are safe starter ranges only. Run tools/autotune_colors.py on the real
+# arena and overwrite them. LAB values are also learned by the same tool.
+colors:
+  BLUE:
+    combine: intersection
+    hsv:
+      - low: [90, 80, 35]
+        high: [135, 255, 255]
+    lab: {}
+
+  ORANGE:
+    combine: intersection
+    hsv:
+      - low: [5, 90, 45]
+        high: [28, 255, 255]
+    lab: {}
+
+  RED:
+    combine: intersection
+    hsv:
+      - low: [0, 90, 35]
+        high: [12, 255, 255]
+      - low: [168, 90, 35]
+        high: [179, 255, 255]
+    lab: {}
+
+  GREEN:
+    combine: intersection
+    hsv:
+      - low: [35, 65, 30]
+        high: [90, 255, 255]
+    lab: {}
